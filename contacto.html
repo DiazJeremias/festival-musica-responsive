@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Oeste Rock 2025 - Contacto</title>
+     <style>
+          @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+     </style>
+     <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+     <header>
+          <h1>Oeste Rock</h1>
+          <nav>
+               <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="programacion.html">Programación</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+               </ul>
+          </nav>
+     </header>
+     <main>
+          <form action="">
+               <fieldset>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required>
+
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" name="email" id="correo" required>
+
+                    <label for="artista-favorito">Artista favorito:</label>
+                    <input type="text" name="artista-favorito" id="artista-favorito">
+
+                    <label for="asistencia">Fecha de asistencia:</label>
+                    <input type="date" name="asistencia" required>
+               </fieldset>
+
+               <fieldset>
+                    <legend>Tipo de entrada:</legend>
+                    <input type="radio" name="entrada" id="entrada-general">
+                    <label for="entrada-general">General</label>
+
+                    <input type="radio" name="entrada" id="entrada-vip">
+                    <label for="entrada-vip">V.I.P</label>
+
+                    <input type="radio" name="entrada" id="entrada-campo">
+                    <label for="entrada-campo">Campo delantero</label>
+               </fieldset>
+
+               <fieldset>
+                    <legend>Intereses:</legend>
+                    <input type="checkbox" name="intereses" id="camping">
+                    <label for="camping">Camping</label>
+
+                    <input type="checkbox" name="intereses" id="merch">
+                    <label for="merch">Merchandising</label>
+
+                    <input type="checkbox" name="intereses" id="meet-greet">
+                    <label for="meet-greet">Meet & greet</label>
+               </fieldset>
+
+               <fieldset>
+                    <label for="genero">Género musical favorito:</label>
+                    <input list="generos" name="generos" id="genero">
+                    <datalist id="generos">
+                         <option value="Rock">
+                         <option value="Pop">
+                         <option value="Metal">
+                         <option value="Electrónica">
+                    </datalist>
+               </fieldset>
+
+               <fieldset>
+                    <label for="comentarios">Dejanos tu comentario:</label>
+                    <textarea id="comentarios" rows="5"></textarea>
+               </fieldset>
+
+               <input type="submit" name="enviar" id="enviar">
+          </form>
+          <aside id="contacto-info">
+               <h2>Información de contacto</h2>
+               <p>📍 Dirección: Origone 151, Buenos Aires</p>
+               <p>📞 Teléfono: +54 11 0000-0000</p>
+               <p>🕓 Horarios de boletería: Lunes a Viernes, 10 a 18 hs</p>
+
+               <div id="redes">
+                    <h3>Seguinos</h3>
+                    <a href="https://www.instagram.com/unahurlingham/">Instagram</a> |
+                    <a href="https://www.youtube.com/@UNAHURLINGHAM">Youtube</a> |
+                    <a href="https://www.facebook.com/UNAHUR">Facebook</a>
+               </div>
+          </aside>
+     </main>
+     <footer>
+          <p>© 2025 - Oeste Rock | Sitio creado por Jeremias Diaz</p>
+     </footer>
+</body>
+
+</html>

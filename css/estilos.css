@@ -1,0 +1,175 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fef4f4;
+  /* Planeaba usa background-image pero no encontre
+  alguna imagen que me parezca estética */
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #d32f2f;
+}
+
+header {
+  background-color: #100011;
+  text-align: center;
+  padding: 15px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+/* Navegacion */
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #d32f2f;
+  text-decoration: underline;
+}
+
+/* Contenido principal */
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.presentacion {
+  text-align: center;
+}
+
+section h2 {
+  border-bottom: 2px solid #d32f2f;
+  color: #d32f2f;
+}
+
+span {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  width: 600px;
+  border-radius: 10px;
+}
+
+.artistas,
+.multimedia {
+  text-align: center;
+}
+
+.artistas h2 {
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: #d32f2f;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Formulario */
+
+form {
+  background-color: #fafafa;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+legend {
+  font-weight: bold;
+  color: #d32f2f;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[list],
+textarea {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#enviar {
+  background-color: #d32f2f;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#enviar:hover {
+  background-color: #b71c1c;
+}
+
+aside {
+  background-color: #eee;
+  padding: 10px;
+  border-left: 4px solid #d32f2f;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 0.9em;
+}
